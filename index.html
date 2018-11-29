@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Randeep Singh Sibia, 000750531
+-->
+<html>
+    <head>
+        <title>Pin Gen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/pingen.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+		 <script type="text/javascript" src="js/ajaxTime.js"></script>
+    <style>
+#error{
+background: red;
+float:left;
+padding-top:80px;
+}
+    </style>
+    </head>
+    <body>
+        <div id="main">
+            <h1>PIN Generator</h1>
+            <input type="text" name="name" placeholder="Your Name" class="types">
+            <select name="method" class="method">
+                <option value="">Choose Method</option>
+                <option value="ASCII">ASCII</option>
+                <option value="Random">Random</option>
+            </select>
+            <input type="button" id="refresh" value="generate" >
+        </div>
+        <div id="pin">
+            Hover here to show the PIN
+        </div>
+        <div hidden id="error">
+        <p id="name_value"></p>
+        <p id="method_value"></p>
+
+        </div>
+		<script>
+		
+ </script
+    </body>
+</html>
